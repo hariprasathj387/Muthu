@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.qa.utility.IsuiteConfiguration" />
+		<listener class-name="com.qa.utility.Listners" />
+		<listener
+			class-name="com.qa.utility.IAnnotationtransformersExample" />
+	</listeners>
+
+	<!-- Settings Part************************************************************************* -->
+
+	<!-- <test name="CompanyInfo settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.CompanyInfo" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="CoreHRMS EMP Profile"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.CRHRMS_ProfileEmployee" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Functionality control settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.Functionality_Control_Test" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Date control settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.DateControlTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="HRPolicy settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.HR_Policy" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Ecode settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ECodeSettings" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="PaySlip settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.PaySlipSettings" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Applicability settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.Applicability_Settings" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Image Upload settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ImageUploadSettings" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Password Policy settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.PasswordPolicy" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Loan Management Test"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.LoanManagementTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="App settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.AppSettings_Test" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="ApprovalMatrix settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ApprovalMatrixTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="UserCredentials settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.UserCredentialsTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Profile Settings"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ProfileSetting" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- Core HRMS -->
+
+	<!-- <test name="LoginPage"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.LoginPageTestCases" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="CoreHRMS Emp Data"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.CoreHRMS_Employee_ProfileData" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="CoreHRMS EMP Profile Edit"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ProfileEditOptions" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="CoreHRMS Probation Test"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ProbationTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="CoreHRMS Exitmanagement Separation"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ExitManage_Separation" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="DashBoard Test"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.DashBoardTestCases" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="Profile uplod Test"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ProfileUploadTestCases" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="Flexi Report Test"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ReportFlexiTestCases" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="Structure Test cases"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.RoleStatus_TestCases" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Employee status change"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.EmployeeStatusChange" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<test name="Employee status change Report">
+	<classes>
+	<class name="com.qa.baseclass.BaseClass" />
+	<class name="com.qa.TestCases.ChangeReportManger" />
+	</classes>
+	</test>
+	<!-- <test name="Thirteen Month Pay"> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.baseclass.BaseClass" /> -->
+	<!-- <class name="com.qa.TestCases.ThirteenMonthPay" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+</suite> 
